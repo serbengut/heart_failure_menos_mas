@@ -115,13 +115,13 @@ st.write(f'El coste del tto. correctivo se ha fijado en: {coste_tto}')
 # #     st.write('DEFINE LOS PARÁMETROS Y HAZ CLICK EN CALCULAR POSIBILIDAD DE FALLO CARDIACO')
 # ############################################################################################
 
-# def carga_x_y():
-#     #pred = np.loadtxt('pred_final.txt')
-#     scoring = np.loadtxt('scoring_modelo.txt')
+def carga_x_y():
+    pred = np.loadtxt('pred_final.txt')
+    scoring = np.loadtxt('scoring_modelo.txt')
 
-#     #val_y_final = np.loadtxt('val_y_final_.txt')
-#     heart_dis_realidad = np.loadtxt('heart_dis_realidad.txt')
-#     return scoring, heart_dis_realidad
+    val_y_final = np.loadtxt('val_y_final_.txt')
+    heart_dis_realidad = np.loadtxt('heart_dis_realidad.txt')
+    return scoring, heart_dis_realidad
 
 # ########################################################################################
 # def max_roi_5(real,scoring, salida = 'grafico'):
