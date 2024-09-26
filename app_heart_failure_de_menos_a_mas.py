@@ -161,9 +161,9 @@ st.write(f'El coste del tto. correctivo se ha fijado en: {coste_tto}')
 #         return(df_temp.iloc[df_temp.valor_esperado.idxmax(),0])
 
 # #no funciona_meto esto a ver
-# scoring, heart_dis_realidad = carga_x_y()
-# #scoring
-# #heart_dis_realidad
+scoring, heart_dis_realidad = carga_x_y()
+scoring
+heart_dis_realidad
 # #no funciona_meto esto de arriba a ver
 
 # ##### boton calcular prob fallo cardiaco: ##########################
